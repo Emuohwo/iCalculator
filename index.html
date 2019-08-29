@@ -22,7 +22,7 @@
             <button class="digit seven">7</button>
             <button class="digit eight">8</button>
             <button class="digit nine">9</button>
-            <button class="equalSign">=</button>
+            <button class="equalSign" data-operator="calculateResult">=</button>
             
             <button class="digit four">4</button>
             <button class="digit five">5</button>
@@ -33,10 +33,11 @@
             <button class="digit three">3</button>
             
             <button class="digit zero">0</button>
-            <button class="dot" data-operator="decimal" class="decimal">.</button>
-            <button class="reset" data-operator="reset" type="reset">AC</button>
+            <button class="dot operator" data-operator="decimal" class="decimal">.</button>
+            <button class="reset operator" data-operator="reset" type="reset">AC</button>
         </div>
     </div>
 
+    <script src="./script.js"></script>
 </body>
 </html>
