@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container {
+    width: 30%;
+    background-color: #000;
+    margin: 4% auto;
+    padding: 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.calculatorScreen {
+    background-color: #fff;
+    color: #000;
+    font-size: 2.5rem;
+    text-align: right;
+    overflow: hidden;
+}
+button {
+    font-size: 1.2rem;
+    border: 0;
+    margin: 2px 1px;
+    /* padding: 14px; */
+    /* width: 60px; */
+    text-align: center;
+}
+
+.calculatorKeys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5em 1em;
+}
+
+.plus {
+    grid-column: 1/2;
+    grid-row: 1/1
+}
+.minus {
+    grid-column: 2/3;
+    grid-row: 1/1
+}
+.times {
+    grid-column: 3/4;
+    grid-row: 1/1
+}
+.divide {
+    grid-column: 4/5;
+    grid-row: 1/1
+}
+
+.seven {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.eight {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.nine {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.equalSign {
+    grid-column: 4/5;
+    grid-row: 3/6;
+}
+.four {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.five {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.six {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.one {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.two {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.three {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.dot {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.zero {
+    grid-column: 2/4;
+    grid-row: 5/5;
+}
