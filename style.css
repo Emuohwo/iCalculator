@@ -4,7 +4,15 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    background: linear-gradient(rgba(0, 0, 255, 0.822), rgba(0, 0, 0, 0.836))
 }
+.caution {
+    font-family: cursive;
+    font-size: 60%;
+    color: rgb(165, 161, 161);
+    text-align: center;
+}
+h1 {text-align: center;}
 .container {
     width: 30%;
     background-color: #000;
@@ -102,4 +110,10 @@ button {
 .zero {
     grid-column: 2/4;
     grid-row: 5/5;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
 }
